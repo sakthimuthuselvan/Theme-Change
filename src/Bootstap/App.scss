@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #592525;
+    --secondary-color: #F10895;
+  }
+  
+  [data-theme='dark'] {
+    --primary-color: #1d1b4b;
+    --secondary-color: #0aa417;
+  }
+  
+  .bg-primary {
+background-color: var(--primary-color) !important;
+  }
